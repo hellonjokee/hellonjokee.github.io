@@ -1,0 +1,47 @@
+.btn1{width:140px; height:50px; border:2px solid #34495e; float:left; text-align:center; cursor:pointer; position:relative; box-sizing:border-box; overflow:hidden; margin:0 0 40px 0;}
+.btn1 a{font-family:arial;  font-size:16px; color:#34495e; text-decoration:none; line-height:50px; transition:all .5s ease; z-index:2; position:relative;}
+.effect1{width:140px; height:50px; top:-2px; right:-140px; background:#34495e; position:absolute; transition:all .5s ease; z-index:1;}
+.btn1:hover .effect1{right:0;}
+.btn1:hover a{color:#fff;}
+
+.btn2{width:140px; height:50px; border:2px solid #34495e; float:left; text-align:center; cursor:pointer; position:relative; box-sizing:border-box; overflow:hidden; margin:0 0 40px 50px;}
+.btn2 a{font-family:arial; font-size:16px; color:#34495e; text-decoration:none; line-height:50px; transition:all .5s ease; z-index:2; position:relative;}
+.effect2{width:140px; height:50px; top:-50px; background:#34495e; position:absolute; transition:all .5s ease; z-index:1;}
+.btn2:hover .effect2{top:0;}
+.btn2:hover a{color:#fff;}
+
+.btn3{width:140px; height:50px; border:2px solid #34495e; float:left; text-align:center; cursor:pointer; position:relative; box-sizing:border-box; overflow:hidden; margin:0 0 40px 50px;}
+.btn3 a{font-family:arial; font-size:16px; color:#34495e; text-decoration:none; line-height:50px; transition:all .5s ease; z-index:2; position:relative;}
+.effect3{width:140px; height:50px; bottom:-50px; background:#34495e; position:absolute; transition:all .5s ease; z-index:1;}
+.btn3:hover .effect3{bottom:0;}
+.btn3:hover a{color:#fff;}
+
+.btn4{width:140px; height:50px; border:2px solid #34495e; float:left; text-align:center; cursor:pointer; position:relative; box-sizing:border-box; overflow:hidden; margin:0 0 40px 50px;}
+.btn4 a{font-family:arial; font-size:16px; color:#34495e; text-decoration:none; line-height:50px; transition:all .5s ease; z-index:2; position:relative;}
+.effect4{width:140px; height:50px; left:-140px; background:#34495e; position:absolute; transition:all .5s ease; z-index:1;}
+.btn4:hover .effect4{left:0;}
+.btn4:hover a{color:#fff;}
+
+.btn5{width:140px; height:50px; border:2px solid #34495e; float:left; text-align:center; cursor:pointer; position:relative; box-sizing:border-box; overflow:hidden; margin:0 0 40px 0;}
+.btn5 a{font-family:arial; font-size:16px; color:#34495e; text-decoration:none; line-height:50px; transition:all .5s ease; z-index:2; position:relative;}
+.effect5{width:140px; height:50px; left:-140px; top:-50px; background:#34495e; position:absolute; transition:all .5s ease; z-index:1;}
+.btn5:hover .effect5{left:0; top:0;}
+.btn5:hover a{color:#fff;}
+
+.btn6{width:140px; height:50px; border:2px solid #34495e; float:left; text-align:center; cursor:pointer; position:relative; box-sizing:border-box; overflow:hidden; margin:0 0 40px 50px;}
+.btn6 a{font-family:arial; font-size:16px; color:#34495e; text-decoration:none; line-height:50px; transition:all .5s ease; z-index:2; position:relative;}
+.effect6{width:140px; height:50px; right:-140px; bottom:-50px; background:#34495e; position:absolute; transition:all .5s ease; z-index:1;}
+.btn6:hover .effect6{right:0; bottom:0;}
+.btn6:hover a{color:#fff;}
+
+.btn7{width:140px; height:50px; border:2px solid #34495e; float:left; text-align:center; cursor:pointer; position:relative; box-sizing:border-box; overflow:hidden; margin:0 0 40px 50px;}
+.btn7 a{font-family:arial; font-size:16px; color:#34495e; text-decoration:none; line-height:50px; transition:all .5s ease; z-index:2; position:relative;}
+.effect7{width:140px; height:50px; border:0px solid #34495e; position:absolute; transition:all .5s ease; z-index:1; box-sizing:border-box;}
+.btn7:hover .effect7{border:70px solid #34495e;}
+.btn7:hover a{color:#fff;}
+
+.btn8{width:140px; height:50px; border:2px solid #34495e; float:left; text-align:center; cursor:pointer; position:relative; box-sizing:border-box; overflow:hidden; margin:0 0 40px 50px;}
+.btn8 a{font-family:arial; font-size:16px; color:#fff; text-decoration:none; line-height:50px; transition:all .5s ease; z-index:2; position:relative;}
+.effect8{width:140px; height:50px; border:70px solid #34495e; position:absolute; transition:all .5s ease; z-index:1; box-sizing:border-box;}
+.btn8:hover .effect8{border:0px solid #34495e;}
+.btn8:hover a{color:#34495e;}
