@@ -1,0 +1,120 @@
+ul.rp_thumbs {
+    margin: 0
+}
+ul.rp_thumbs li {
+    font-size: 12px;
+    min-height: 68px;
+    margin: 0 0 8px;
+    padding: 0 0 8px;
+    border-bottom: 1px dotted #f0f0f0
+}
+ul.rp_thumbs .rp_thumb {
+    position: relative;
+    background: #fbfbfb;
+    margin: 3px 0 10px;
+    width: 100%;
+    height: 0;
+    padding-bottom: 46%;
+    overflow: hidden
+}
+ul.rp_thumbs .rp_thumb img {
+    height: auto;
+    width: 100%;
+    transition: transform 1.6s;
+    transform: scale(1.0)
+}
+ul.rp_thumbs .rp_thumb:hover img {
+    transform: scale(1.10)
+}
+ul.rp_thumbs2 {
+    font-size: 13px
+}
+ul.rp_thumbs2 li {
+    padding: 0;
+    min-height: 66px;
+    font-size: 11px;
+    margin: 0 0 8px;
+    padding: 0 0 8px;
+    border-bottom: 1px dotted #f0f0f0
+}
+ul.rp_thumbs2 .rp_thumb2 {
+    background: #fbfbfb;
+    float: left;
+    margin: 3px 8px 0 0;
+    height: 60px;
+    width: 60px
+}
+ul.rp_thumbs2 li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0
+}
+ul.rp_thumbs2 .rp_thumb2 img {
+    height: 60px;
+    width: 60px
+}
+.sidebar ul.rp_thumbs li:before,
+.sidebar ul.rp_thumbs2 li:before,
+#bottombar ul.rp_thumbs li:before,
+#bottombar ul.rp_thumbs2 li:before {
+    display: none
+}
+span.rp_title {
+    font: normal normal 18px Roboto Condensed, Helvetica, Arial, sans-serif;
+    display: block;
+    margin: 0 0 5px;
+    line-height: 1.4em
+}
+span.rp_title2 {
+    font-size: 14px
+}
+span.rp_summary {
+    display: block;
+    margin: 6px 0 0
+}
+span.rp_meta {
+    background: transparent;
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    color: #8D8D8D;
+    text-transform: uppercase
+}
+span.rp_meta a {
+    color: #8D8D8D!important;
+    display: inline-block
+}
+span.rp_meta_date,
+span.rp_meta_comment,
+span.rp_meta_more {
+    display: inline-block;
+    margin-right: 8px
+}
+span.rp_meta_date:before {
+    content: "\f073";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: inherit;
+    padding-right: 4px
+}
+span.rp_meta_comment:before {
+    content: "\f086";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: inherit;
+    padding-right: 4px
+}
+span.rp_meta_more:before {
+    content: "\f0a9";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: inherit;
+    padding-right: 4px
+}
+ul.rp_thumbs2 li a:hover,
+ul.rp_thumbs li a:hover {
+    color: #0072C6
+}
