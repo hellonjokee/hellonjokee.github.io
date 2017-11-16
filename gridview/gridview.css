@@ -1,0 +1,52 @@
+.post {
+    width:31.3%;
+    float:left;
+    display:inline-block;
+    border-bottom: medium none;
+    margin: 0 1% 2%;
+    padding-bottom: 0;
+    }
+    h2.date-header,.post-footer {
+    display: none;
+    }
+    h3.post-title, .comments h4,.post-header{margin:0;}
+    .postThumbnail:hover {text-decoration:none;}
+    a.postThumbnail div {
+    text-decoration: none;
+    color: #fff;
+    padding:0 5px;
+    height:24px;
+    font:bold 12px/25px &quot;Trebuchet MS&quot;,Trebuchet,Verdana,sans-serif;
+    text-transform: capitalize;
+    background: rgb(125,126,125);
+    background: -moz-linear-gradient(top,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1)));
+    background: -webkit-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+    background: -o-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+    background: -ms-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+    background: linear-gradient(to bottom,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#7d7e7d&#39;,endColorstr=&#39;#0e0e0e&#39;,GradientType=0 );
+    }
+    .postThumbnail{width:100%;}
+    .postThumbnail:hover div {
+    display: block;
+    }
+    .postThumbnail img {
+    width:100%;
+    background-color: transparent;
+    border: medium none;
+    padding: 0px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    }
+    .postThumbnail img:hover {
+    -ms-filter: &quot;progid: DXImageTransform.Microsoft.Alpha(Opacity=70)&quot;;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+    }
