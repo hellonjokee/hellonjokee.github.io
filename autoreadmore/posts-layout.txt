@@ -1,0 +1,21 @@
+<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
+    <b:if cond='data:blog.pageType != &quot;item&quot;'>
+        <div expr:id='&quot;summary&quot; + data:post.id'>
+            <data:post.body/>
+        </div>
+        <script type='text/javascript'>createSummaryAndThumb(&quot;summary<data:post.id/>&quot;,&quot;<data:post.url/>&quot;);</script>
+        <b:if cond='data:post.allowComments'>
+            <a class='comment-bubble' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'>
+                <data:post.numComments/>
+            </a>
+        </b:if>
+    </b:if>
+</b:if>
+<b:if cond='data:blog.pageType == &quot;item&quot;'>
+        <div expr:id='&quot;njokee-posts&quot; + data:post.id'>
+            <data:post.body/>
+        </div>
+</b:if>
+<b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+    <data:post.body/>
+</b:if>
