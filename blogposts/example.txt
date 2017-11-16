@@ -1,0 +1,4 @@
+<script>
+   document.write('<div class="recent-post-title"><h2><a href="/search/label/label?max-results=10">Label 1</a></h2></div>');
+   document.write("<script src=\"/feeds/posts/default/-/label?orderby=updated&alt=json-in-script&callback=labelthumbs\"><\/script>");
+   </script>
