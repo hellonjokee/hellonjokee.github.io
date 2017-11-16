@@ -1,0 +1,123 @@
+#blog-pager {
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    left: 0
+}
+.blog-feeds {
+    display: none
+}
+.post {
+    height: auto;
+    width: 100%;
+    padding: 0!important;
+    margin: 0 0 30px;
+    display: inline-block;
+    text-decoration: none
+}
+h3.post-title a {
+    font: bold 95% &#39;
+    Open Sans Condensed&#39;
+    , sans-serif;
+    text-transform: uppercase;
+    padding: 0;
+    color: #fff;
+    text-shadow: 3px 2px 2px #222;
+}
+h3.post-title,
+.comments h4 {
+    margin: 0!important;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    z-index: 200
+}
+.post-header {
+    display: none
+}
+.date-header {
+    visibility: hidden;
+    height: 0!important;
+    width: 0!important;
+    padding: 0!important;
+    margin: 0!important
+}
+.posts-thumb {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    clear: both
+}
+.post-body {
+    overflow: hidden;
+    position: relative
+}
+.post-body a {
+    text-decoration: none
+}
+.post-body img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: none;
+    min-width: 100%;
+    min-height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    position: relative
+}
+.post-summary-text {
+    cursor: pointer;
+    background-color: rgba(44, 77, 163, 0.8);
+    color: #fff;
+    font: 120% &#39;
+    Open Sans Condensed&#39;
+    , sans-serif;
+    padding: 84px 10% 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    vertical-align: bottom;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+    top: 0;
+    opacity: 0;
+    z-index: 10;
+    height: 100%;
+    transition: all 300ms ease-out 0s;
+}
+.post-summary-text:hover {
+    opacity: 1
+}
+.post-footer {
+    display: none
+}
+a.comment-bubble {
+    color: #fff;
+    text-decoration: none;
+    font: 120% &#39;
+    Open Sans Condensed&#39;
+    , sans-serif;
+    right: 5px;
+    z-index: 222;
+    position: absolute;
+    top: 5px;
+    text-shadow: 1px 2px 1px #333;
+}
+a.comment-bubble:before {
+    content: url(https://4.bp.blogspot.com/-t1i_svebif4/VPMpZqPrKzI/AAAAAAAALAg/TRJ2Un238Gs/s1600/heart-active.png);
+}
+.main-inner .column-center-inner {
+    -moz-column-count: 3;
+    -moz-column-gap: 1px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 1px;
+    column-count: 3;
+    column-gap: 1px;
+    width: 100%;
+    padding: 0!important
+}
